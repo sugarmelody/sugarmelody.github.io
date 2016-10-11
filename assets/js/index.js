@@ -3,7 +3,7 @@ $(document).ready(function(){
 
   function switchScreen() {
     $('.logo-svg').toggleClass('switch');
-    //$('.logo-container').toggleClass('switch');
+    $('.logo-container').toggleClass('switch');
   }
   
   $avatar.on('click', switchScreen);
